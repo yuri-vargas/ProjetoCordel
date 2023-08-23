@@ -4,6 +4,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,300;1,400&display=swap'); /*Mali*/
 
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap'); /* Cinzel */
+
 *{
     margin: 0;
     padding: 0;
@@ -19,7 +21,7 @@ body{
     text-align: center;
 }
 #cabeca h1{
-    font-family: 'Kanit', serif;
+    font-family: 'Cinzel', serif;
 }
 #cabeca, h1 p{
     color: aliceblue;
@@ -28,7 +30,9 @@ body{
 main{
     margin: auto;
     background-color: white;
-    width: 800px;
+    min-height: 700px;
+    max-width: 800px;
+    width: 100%;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
@@ -37,4 +41,14 @@ main{
     font-family: 'Mali';
     font-size: 20px;
     word-spacing: 5px;
+}
+
+#rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(36, 36, 36);
+    height: 40px;
+    font-family: 'Cinzel';
 }
